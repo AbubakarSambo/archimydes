@@ -9,6 +9,8 @@ the admin story list so that it wouldn't update the data from the api withouht t
 
 I opted not to use Redux, and instead chose React Context, which is in my opinion less bulky and more in line with Where the Community is headed
 
+Running `yarn test` will run the available tests
+
 ## Available Scripts
 
 In the project directory, you can run:
