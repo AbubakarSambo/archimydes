@@ -1,9 +1,13 @@
 ## Challenge Assumptions
 
-    On Creating a new story, I noticed the api was returning 0 on line 49/50 of `src/routes/stories.js` of the api file and i uncommented those
-    I have set an expiration of 2 minutes on localstorage at which point the token expires and the user will have to login again
-    As there is no endpoint for approve/reject, I couldn't show the most updated data so i set a flag on the admin story list so that it wouldn't update the data from the api withougt the status
-    I opted not to use Redux, and instead chose React Context, which is in my opinion less bulky and more in line with Where the Community is headed
+On Creating a new story, I noticed the api was returning 0 on line 49/50 of `src/routes/stories.js` of the api file and i uncommented those
+
+I have set an expiration of 2 minutes on localstorage at which point the token expires and the user will have to login again
+
+As there is no endpoint for approve/reject, I couldn't show the most updated data so i set a flag on
+the admin story list so that it wouldn't update the data from the api withougt the status
+
+I opted not to use Redux, and instead chose React Context, which is in my opinion less bulky and more in line with Where the Community is headed
 
 ## Available Scripts
 
